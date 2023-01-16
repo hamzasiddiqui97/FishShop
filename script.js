@@ -87,3 +87,62 @@ $(document).ready(function () {
     freshwaterFish.style.display = "block";
   });
 });
+
+// Salt Water Fish from Category
+$(document).ready(function () {
+  // Salt Water Fish from Category
+  var saltwaterCategoryLink = document.querySelector(
+    "#saltwater-category-link"
+  );
+
+  // Add a click event listener to the link
+  saltwaterCategoryLink.addEventListener("click", function (event) {
+    event.preventDefault(); // prevent the link from navigating away from the page
+
+    // Get the container for the saltwater fish
+    var saltwaterFish = document.querySelector("#saltwater-fish");
+
+    // Show the saltwater fish container
+    saltwaterFish.style.display = "block";
+  });
+});
+
+
+// contact us from Category
+$(document).ready(function () {
+  // contact us from Category
+  var contactusCategoryLink = document.querySelector(
+    "#contactus-category-link"
+  );
+
+  // Add a click event listener to the link
+  contactusCategoryLink.addEventListener("click", function (event) {
+    event.preventDefault(); // prevent the link from navigating away from the page
+
+    // Get the container for the contact us
+    var contactus = document.querySelector("#contactus");
+
+    // Show the contact us container
+    contactus.style.display = "block";
+  });
+});
+
+// aquarium-gallery from Category
+$(document).ready(function () {
+  // aquarium gallery from Category
+  var aquariumgalleryCategoryLink = document.querySelector(
+    "#aquarium-gallery-category-link"
+  );
+
+  // Add a click event listener to the link
+  aquariumgalleryCategoryLink.addEventListener("click", function (event) {
+    event.preventDefault(); // prevent the link from navigating away from the page
+
+    // Get the container for the aquarium gallery
+    var aquariumgallery = document.querySelector("#aquarium-gallery");
+
+    // Show the aquarium gallery container
+    aquariumgallery.style.display = "block";
+  });
+});
+

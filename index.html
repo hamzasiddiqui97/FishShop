@@ -13,8 +13,8 @@
       <div class="dropdown">
         <button class="dropbtn">Categories</button>
         <div class="dropdown-content">
-          <a href="#" id="freshwater-category-link">Freshwater Fish</a>
-          <a href="#">Saltwater Fish</a>
+          <a href="freshwater-fish.html" id="freshwater-category-link">Freshwater Fish</a>
+          <a href="saltwater-fish.html" id="saltwater-category-link">Saltwater Fish</a>
           <a href="#">Aquarium Supplies</a>
         </div>
       </div>
@@ -22,13 +22,27 @@
       <div class="navbar">
         <a href="#">Home</a>
         <a
-          href="category_pages/freshwater-fish.html"
+          href="freshwater-fish.html"
           id="freshwater-category-link"
           >Freshwater Fish</a
         >
-        <a href="#">Saltwater Fish</a>
+        <a
+          href="saltwater-fish.html"
+          id="saltwater-category-link"
+          >Saltwater Fish</a
+        >
         <a href="#">Supplies</a>
-        <a href="#">Contact</a>
+
+        <a
+          href="aquarium_gallery.html"
+          id="aquarium-gallery-category-link">
+          Aquarium Gallery
+          </a>
+        <a 
+          href="contactus.html"
+          id="contactus-category-link">
+          Contact
+      </a>
       </div>
 
       <form>
@@ -43,15 +57,18 @@
       <img src="assets/slider-pic-3.jpg" class="slides" />
     </div>
 
-    <p>
+
+    <p class="center-text">
       We sell a variety of fresh and saltwater fish, as well as aquarium
       supplies.
-    </p>
+  </p>
+
+
     <div class="row">
       <div class="column">
         <h2>Freshwater Fish</h2>
         <img src="assets/fresh-water.jpg" alt="Freshwater Fish" />
-        <p>We have a wide selection of freshwater fish, including:</p>
+        <p class="center-text">We have a wide selection of freshwater fish, including:</p>
         <ul>
           <li>Angelfish</li>
           <li>Guppies</li>
@@ -63,7 +80,7 @@
       <div class="column">
         <h2>Saltwater Fish</h2>
         <img src="assets/salt-water.jpg" alt="Saltwater Fish" />
-        <p>We also carry a variety of saltwater fish, such as:</p>
+        <p class="center-text">We also carry a variety of saltwater fish, such as:</p>
         <ul>
           <li>Clownfish</li>
           <li>Damselfish</li>
@@ -77,7 +94,7 @@
       <div class="column">
         <h2>Aquarium Supplies</h2>
         <img src="assets/fish-tank.jpg" alt="Aquarium Supplies" />
-        <p>
+        <p class="center-text">
           We have all the supplies you need to set up and maintain a beautiful
           aquarium, including:
         </p>
@@ -90,11 +107,24 @@
         </ul>
       </div>
     </div>
-    <p>
+    <p class="center-text">
       Visit us today to see our selection in person or call to place an order!
     </p>
   </body>
 
+  
+  <footer>
+    <div class="footer">
+      <p>Copyright ©2022 Fish Shop</p>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+      </nav>
+    </div>
+  </footer>
+
   <script src="script.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-</html>
+
+  </html>

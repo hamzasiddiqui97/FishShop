@@ -66,17 +66,19 @@ li:hover {
 }
 
 .navbar a:hover {
-  background-color: turquoise; /* change background color on hover */
+  background-color: rgb(6, 87, 207); /* change background color on hover */
 }
 img {
   width: 300px;
   height: auto;
 }
 form {
+  
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
 }
+
 
 input[type="search"] {
   padding: 0.5em;
@@ -181,7 +183,7 @@ ul {
 }
 
 li {
-  margin: 10px 0;
+  margin: 35px 0;
 }
 
 img {
@@ -189,3 +191,20 @@ img {
   margin: 0 auto;
   width: 50%;
 }
+
+.center-text {
+  text-align: center;
+}
+
+.footer {
+  background-color: #006699;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+/* .footer nav {
+  display: flex;
+  justify-content: center;
+ 
+} */
+
