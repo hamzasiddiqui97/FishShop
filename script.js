@@ -54,3 +54,36 @@ $(document).ready(function () {
     setTimeout(showSlides, time);
   }
 });
+
+// Get the dropdown button
+var dropdown = document.querySelector(".dropdown");
+
+// Add a click event listener to the dropdown button
+dropdown.addEventListener("click", function () {
+  // Toggle the visibility of the dropdown content
+  var dropdownContent = document.querySelector(".dropdown-content");
+  if (dropdownContent.style.display === "block") {
+    dropdownContent.style.display = "none";
+  } else {
+    dropdownContent.dropdownContent.style.display = "block";
+  }
+});
+
+// Fresh Water Fish from Category
+$(document).ready(function () {
+  // Fresh Water Fish from Category
+  var freshwaterCategoryLink = document.querySelector(
+    "#freshwater-category-link"
+  );
+
+  // Add a click event listener to the link
+  freshwaterCategoryLink.addEventListener("click", function (event) {
+    event.preventDefault(); // prevent the link from navigating away from the page
+
+    // Get the container for the freshwater fish
+    var freshwaterFish = document.querySelector("#freshwater-fish");
+
+    // Show the freshwater fish container
+    freshwaterFish.style.display = "block";
+  });
+});

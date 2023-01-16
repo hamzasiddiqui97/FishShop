@@ -10,10 +10,26 @@
     <h1>Welcome to Fish Shop</h1>
 
     <div class="navbar">
-      <a href="#">Home</a>
-      <a href="#">Fish</a>
-      <a href="#">Supplies</a>
-      <a href="#">Contact</a>
+      <div class="dropdown">
+        <button class="dropbtn">Categories</button>
+        <div class="dropdown-content">
+          <a href="#" id="freshwater-category-link">Freshwater Fish</a>
+          <a href="#">Saltwater Fish</a>
+          <a href="#">Aquarium Supplies</a>
+        </div>
+      </div>
+
+      <div class="navbar">
+        <a href="#">Home</a>
+        <a
+          href="category_pages/freshwater-fish.html"
+          id="freshwater-category-link"
+          >Freshwater Fish</a
+        >
+        <a href="#">Saltwater Fish</a>
+        <a href="#">Supplies</a>
+        <a href="#">Contact</a>
+      </div>
 
       <form>
         <input type="search" placeholder="Search Fishes..." />
