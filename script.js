@@ -127,7 +127,7 @@ $(document).ready(function () {
   });
 });
 
-// aquarium-gallery from Category
+// aquarium-gallery
 $(document).ready(function () {
   // aquarium gallery from Category
   var aquariumgalleryCategoryLink = document.querySelector(
@@ -143,6 +143,125 @@ $(document).ready(function () {
 
     // Show the aquarium gallery container
     aquariumgallery.style.display = "block";
+  });
+});
+
+
+// Fish Food Page
+$(document).ready(function () {
+ 
+  var fishFoodCategoryLink = document.querySelector(
+    "#fishFood-category-link"
+  );
+
+  // Add a click event listener to the link
+  fishFoodCategoryLink.addEventListener("click", function (event) {
+    event.preventDefault(); // prevent the link from navigating away from the page
+
+    // Get the container for the fishFood
+    var fishFood = document.querySelector("#fishFood");
+
+    // Show the fishFood container
+    fishFood.style.display = "block";
+  });
+});
+
+
+// Fish Filter Page
+$(document).ready(function () {
+ 
+  var fishFoodCategoryLink = document.querySelector(
+    "#fishFilter-category-link"
+  );
+
+  // Add a click event listener to the link
+  fishFilterCategoryLink.addEventListener("click", function (event) {
+    event.preventDefault(); // prevent the link from navigating away from the page
+
+    // Get the container for the fishFood
+    var fishFilter = document.querySelector("#fishFilter");
+
+    // Show the fishFood container
+    fishFilter.style.display = "block";
+  });
+});
+
+// Fish Cleaner Page
+$(document).ready(function () {
+ 
+  var fishFoodCategoryLink = document.querySelector(
+    "#fishCleaner-category-link"
+  );
+
+  // Add a click event listener to the link
+  fishCleanerCategoryLink.addEventListener("click", function (event) {
+    event.preventDefault(); // prevent the link from navigating away from the page
+
+    // Get the container for the fishFood
+    var fishCleaner = document.querySelector("#fishCleaner");
+
+    // Show the fishFood container
+    fishCleaner.style.display = "block";
+  });
+});
+
+// Fish Heater Page
+$(document).ready(function () {
+ 
+  var fishFoodCategoryLink = document.querySelector(
+    "#fishHeater-category-link"
+  );
+
+  // Add a click event listener to the link
+  fishHeaterCategoryLink.addEventListener("click", function (event) {
+    event.preventDefault(); // prevent the link from navigating away from the page
+
+    // Get the container for the fishFood
+    var fishHeater = document.querySelector("#fishHeater");
+
+    // Show the fishFood container
+    fishHeater.style.display = "block";
+  });
+});
+
+
+// Fish Props Page
+$(document).ready(function () {
+ 
+  var fishFoodCategoryLink = document.querySelector(
+    "#fishProps-category-link"
+  );
+
+  // Add a click event listener to the link
+  fishPropsCategoryLink.addEventListener("click", function (event) {
+    event.preventDefault(); // prevent the link from navigating away from the page
+
+    // Get the container for the fishFood
+    var fishProps = document.querySelector("#fishProps");
+
+    // Show the fishFood container
+    fishProps.style.display = "block";
+  });
+});
+
+
+
+// Fish Tanks Page
+$(document).ready(function () {
+ 
+  var fishFoodCategoryLink = document.querySelector(
+    "#fishTanks-category-link"
+  );
+
+  // Add a click event listener to the link
+  fishTanksCategoryLink.addEventListener("click", function (event) {
+    event.preventDefault(); // prevent the link from navigating away from the page
+
+    // Get the container for the fishFood
+    var fishTanks = document.querySelector("#fishTanks");
+
+    // Show the fishFood container
+    fishTanks.style.display = "block";
   });
 });
 

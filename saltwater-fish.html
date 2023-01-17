@@ -1,32 +1,57 @@
-<!-- <!DOCTYPE html>
-<html>
-  <head>
-    <title>Saltwater Fish</title>
-    <link rel="stylesheet" type="text/css" href="gallery_styles.css" />
-  </head>
-  <body>
-    <h1>Saltwater Fish</h1>
-    <p class="center-text">We have a wide selection of Saltwater fish, including:</p>
-    <ul class="center-text">
-        <li>Clownfish</li>
-        <li>Damselfish</li>
-        <li>Gobies</li>
-        <li>Tang</li>
-        <li>Wrasse</li>
-    </ul>
-    <img src="assets/salt-water.jpg" alt="Saltwater Fish" />
-  </body>
-</html> -->
-
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Saltwater Fishes</title>
     <link rel="stylesheet" type="text/css" href="gallery_styles.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   </head>
   <body>
+    <div class="navbar">
+        <div class="dropdown">
+          <button class="dropbtn">Category</button>
+          <div class="dropdown-content">
+            <a href="fish_food.html" id="#fishFood-category-link">Fish Food</a>
+            <a href="filters.html" id="fishFilter-category-link">Filters</a>
+            <a href="fish_cleaner.html" id="#fishCleaner-category-link">Cleaner</a>
+            <a href="fish_heater.html" id="fishHeater-category-link">Heater</a>
+            <a href="fish_props.html" id="#fishProps-category-link">Fish Props</a>
+            <a href="aquarium_gallery.html" id="#fishTanks-category-link">Fish Tanks</a>
+          </div>
+        </div>
+  
+        <div class="navbar">
+          <a href="index.html">Home</a>
+          <a
+            href="freshwater-fish.html"
+            id="freshwater-category-link"
+            >Freshwater Fish</a
+          >
+          <a
+            href="saltwater-fish.html"
+            id="saltwater-category-link"
+            >Saltwater Fish</a
+          >
+          <a href="#">Supplies</a>
+  
+          <a
+            href="aquarium_gallery.html"
+            id="aquarium-gallery-category-link">
+            Aquarium Gallery
+            </a>
+          <a 
+            href="contactus.html"
+            id="contactus-category-link">
+            Contact
+        </a>
+        </div>
+  
+        <form>
+          <input type="search" placeholder="Search Fishes..." />
+          <button type="submit">Search</button>
+        </form>
+      </div>
+  
     <h1 >Saltwater Fishes</h1>
-    <p>Check out some of the beautiful Saltwater Fishes we've set up for our customers:</p>
+    <p class="text-center">Check out some of the beautiful Saltwater Fishes we've set up for our customers:</p>
     <div class="gallery">
       <div class="gallery-item">
         <img src="assets/saltwaterfish/angelfish.jpeg" alt="Angelfish" />
