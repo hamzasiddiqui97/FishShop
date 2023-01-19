@@ -29,5 +29,5 @@ addToCartBtn.addEventListener("click", function() {
 
 // navigate to cart page when button is pressed
 function navigateToCart() {
-  window.location.href = "cart_page.html";
+  window.location.href = "on_tap_cart_button.html";
 }
